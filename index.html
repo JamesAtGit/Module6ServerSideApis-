@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <h1>Weather Dashboard</h1>
+  <div class="search-container">
+    <input type="text" id="city-search" placeholder="Enter city name">
+    <button id="search-btn">Search</button>
+  </div>
+
+  <h2 id="city-name"></h2>
+  <p id="current-weather"></p>
+  <p id="current-temp"></p>
+  <p id="current-humidity"></p>
+  <p id="current-wind"></p>
+
+  <h3>5-Day Forecast</h3>
+  <div id="forecast-container"></div>
+
+  <h3>Search History</h3>
+  <ul id="search-history"></ul>
+</body>
+</html>

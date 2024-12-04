@@ -1,0 +1,42 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+#search-history {
+  list-style-type: none;
+  padding: 0;
+}
+
+#search-history li {
+  cursor: pointer;
+  color: blue;
+}
+
+#forecast-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.forecast-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+.forecast-item img {
+  width: 50px;
+}
